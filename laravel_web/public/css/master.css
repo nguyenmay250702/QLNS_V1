@@ -1,0 +1,267 @@
+body {
+  color: #98a6ba;
+  box-sizing: border-box;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+}
+
+i {
+  color: #6b788b;
+  margin-right: 8px;
+}
+
+.header,
+.footer {
+  background-color: #2b3643;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.avatar {
+  width: 28px;
+}
+
+.container-full {
+  background-color: #f2f3f8;
+  padding: 15px;
+  width: 100%;
+}
+
+.fa-bars:hover {
+  color: #bfc4ca;
+}
+
+.fa-opencart {
+  margin-left: 26px;
+}
+
+.btn_1 {
+  border-color: transparent !important;
+  color: #b4bcc8;
+  font-size: 14px;
+  padding: 0;
+}
+
+.dropdown-menu {
+  display: block;
+  position: relative;
+  border-radius: 0;
+  background: #2C3542;
+  min-width: 14rem;
+  padding: 0;
+  border: 0;
+}
+
+.dropdown-menu a, .list-group-item{
+  color: #b4bcc8;
+  border-top: 1px solid #3d4957;
+  background-color: #364150;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.dropdown-item:hover,
+.list-group-item:hover,
+.dropdown-item:focus,
+.list-group-item:focus {
+  background: #2C3542;
+  color: #b4bcc8;
+}
+
+.dropdown-menu .img1 {
+  background-repeat: round;
+  background-image: url(../images/header_bg.jpg);
+  height: 86px;
+  opacity: 50%;
+}
+
+#home {
+  background-color: #4d3a33;
+  color: white;
+  position: relative;
+}
+
+#home i {
+  color: white;
+}
+
+#home::after {
+  content: "";
+  position: absolute;
+  border: 13px solid;
+  border-color: transparent #f2f3f8 transparent transparent;
+  right: 0;
+  top: calc(50% - 13px);
+}
+
+@media (min-width: 992px) {
+  .control {
+    display: block !important;
+  }
+}
+
+.main {
+  background-color: #364150;
+  min-height: 95vh;
+}
+
+.container-full .title {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  color: black;
+  font-weight: 600;
+}
+
+.card {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.btn-in {
+  background-color: #f4ecff;
+  border-color: #4300bd;
+}
+
+.btn-in>i {
+  color: #4300bd;
+  margin: 0;
+  font-weight: 600;
+}
+
+.btn-mau{
+  background-color: #eaeaea;
+  border-color: #d5772b;
+  color: #1d1c1bd9;
+  font-weight: 600;
+}
+
+.btn-mau i{
+  color: #1d1c1bd9;
+  margin: 0;
+}
+
+.pagination {
+  justify-content: flex-end;
+}
+
+.btn-dangnhap{
+    width: 140px;
+    height: fit-content;
+    background-color: #9cc3ed;
+    border-color: #0b0ee2;
+    color: #082a91;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.btn-luu{
+  background-color: #eaeaea;
+  border-color: #379668;
+  color: #1d1c1bd9;
+  font-weight: 600;
+  min-width: 100px;
+  /* margin: 40px 10px 0 0; */
+}
+
+.btn-luu i{
+  color: #1d1c1bd9;
+  margin: 0;
+}
+
+.btn-huy{
+  background-color: #eaeaea;
+  border-color: #a1a1a157;
+  color: #1d1c1bd9;
+  font-weight: 600;
+  width: 100px;
+  /* margin: 40px 0 0 10px; */
+}
+
+.btn-huy i{
+  color: #1d1c1bd9;
+  margin: 0;
+}
+
+.action{
+  border-right: 1px solid #d5772b;
+  background-color: #364150;
+  top: -37px;
+  right: 64%;
+  width: 90px;
+  z-index: 2;
+}
+
+.action::after {
+  content: "";
+  position: absolute;
+  border: 13px solid;
+  border-color: transparent transparent transparent #d5772b;
+  right: -26px;
+  top: 42px;
+}
+
+
+.action_item{
+  display: block;
+  text-decoration: none;
+  color: #b4bcc8;
+  width: 100%;
+  border-bottom: 1px solid #b4bcc854;
+}
+
+.action_item:hover{
+  background-color: #2C3542 !important;
+  color: white;
+}
+
+.model_create{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: antiquewhite;
+  z-index: 10001;
+}
+
+
+/* staff> create */
+.tap_import_staff{
+  background-image: url(../images/staffs_import.png);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 60%;
+  margin: 40px 0 20px 0;
+}
+
+.download_template, .import_file_data{
+  width: 186px;
+  height: 68px;
+  border: 1px solid;
+}
+
+.download_template{
+  margin-left: calc(60% - 225px);
+}
+
+/* .download_template::before{
+  content: "Tải mẫu điền thông tin nhân viên.";
+    position: absolute;
+} */
+
+
+.import_file_data{
+  margin: 103px 0 112px calc(60% - 129px);
+}
+
+.tap_import_staff>form>button{
+  margin-left: 60%;
+}
